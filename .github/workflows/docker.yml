@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: darealroyal/tmr_server
+  IMAGE_NAME: darealroyal/tmr-gunupdate_server
 
 jobs:
   build:

@@ -1,3 +1,3 @@
-# TacticalDocker
+# TMR-GunUpdate Docker
 
-🐳 TMR_Server Dockerized
+🐳 TMR-GunUpdate_Server Dockerized

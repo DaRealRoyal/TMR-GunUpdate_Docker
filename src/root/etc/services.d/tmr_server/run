@@ -2,4 +2,4 @@
 
 exec 2>&1 \
     s6-setuidgid abc \
-        /app/tmr_server/TacticalMathReturns.x86_64 -batchmode -nographics
+        /app/tmr-gunupdate_server/TMR-GunUpdate.x86_64 -batchmode -nographics

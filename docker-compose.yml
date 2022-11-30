@@ -2,9 +2,9 @@ version: "3.9"
 
 services:
   tmr_server:
-    image: nalsai/tmr_server
+    image: nalsai/tmr-gunupdate_server
     build: ./src
-    container_name: tmr_server
+    container_name: tmr-gunupdate_server
     restart: unless-stopped
     ports:
       - 7777:7777/udp
