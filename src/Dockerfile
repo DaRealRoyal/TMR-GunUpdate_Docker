@@ -7,7 +7,7 @@ RUN apt-get update && \
   apt-get install -y libglu1 libxcursor1 xvfb xz-utils && \
   curl -o \
     /tmp/TMR-GunUpdate_Server.tar.xz -L \
-    "https://github.com/DaRealRoyal/TacticalMathReturns/releases/download/${TMR_RELEASE}/TMR-GunUpdate_Server.tar.xz" && \
+    "https://github.com/DaRealRoyal/TMR-GunUpdate/releases/download/${TMR_RELEASE}/TMR-GunUpdate_Server.tar.xz" && \
   mkdir /app/tmr-gunupdate_server && \
   tar xf \
     /tmp/TMR-GunUpdate_Server.tar.xz -C \
